@@ -1,0 +1,48 @@
+.container{
+  width: 100vw;
+  max-width: 100%;
+  height: 100%;
+  background: #131313;
+  position: relative;
+}
+
+.wrapper{
+  width: 100%;
+  max-width: 1560px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.background{
+  width: 100%;
+  height: 775px;
+  position: relative;
+  overflow: hidden;
+}
+
+.background .bg1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -100px;
+  left: 150px;
+}
+
+.background .bg2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: -100px;
+  left: 250px;
+}
+
+.hero-img{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+}
+
+.hero-img img{
+  width: 90%;
+}
