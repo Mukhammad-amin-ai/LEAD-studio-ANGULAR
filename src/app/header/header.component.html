@@ -3,7 +3,18 @@
     <img alt="logo" [src]="logo">
     <nav>
       <div class="switcher">
+        <select class="language">
+          <option [ngValue]="null" disabled>Select Country</option>
+          <option *ngFor="let country of countries" [ngValue]="country.id">{{ country.name }}</option>
+        </select>
 
+        <div class="toggleBtn">
+          <div class="toggleBar">
+            <div class="checkBtn">
+              <img [src]="theme" alt="themeBtn">
+            </div>
+          </div>
+        </div>
       </div>
       <ul>
         <li>Home</li>
@@ -14,9 +25,9 @@
         <li>Contacts</li>
       </ul>
     </nav>
-    <button>
+    <button class="playBtn">
       Start a project
-<!--      <img alt="icon" [src]="playIcon" >-->
+      <img alt="icon" [src]="play">
     </button>
   </div>
 </header>

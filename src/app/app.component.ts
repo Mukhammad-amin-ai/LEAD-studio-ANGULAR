@@ -10,6 +10,7 @@ import {HeaderComponent} from "./header/header.component";
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
+
 export class AppComponent {
   backgroundImg1 = "assets/background/bg1.svg"
   backgroundImg2 = "assets/background/bg2.png"
