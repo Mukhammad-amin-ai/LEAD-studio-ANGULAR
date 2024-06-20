@@ -2,7 +2,6 @@
   width: 100vw;
   max-width: 100%;
   height: 100%;
-  background: #131313;
   position: relative;
 }
 
@@ -11,6 +10,8 @@
   max-width: 1560px;
   margin: 0 auto;
   height: 100%;
+  background: #131313;
+  position: relative;
 }
 
 .background{
@@ -38,11 +39,12 @@
 
 .hero-img{
   width: 100%;
-  height: 100%;
-  top: 0;
+  height: 90%;
+  top: 50px;
   position: absolute;
 }
 
 .hero-img img{
-  width: 90%;
+  width: 80%;
+  user-select: none;
 }
