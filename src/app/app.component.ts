@@ -13,6 +13,8 @@ import {HeaderComponent} from "./header/header.component";
 export class AppComponent {
   backgroundImg1 = "assets/background/bg1.svg"
   backgroundImg2 = "assets/background/bg2.png"
+  heroText = "assets/hero-text.png"
+  arrow="assets/icons/Arrow.svg"
   hero = "assets/hero.svg"
   title = "my-app"
   protected readonly console = console;
